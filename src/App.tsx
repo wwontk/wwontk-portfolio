@@ -1,9 +1,15 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import HomePage from "./pages/HomePage";
+import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
     <>
-      <p>포트폴리오</p>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/projects" element={<ProjectPage />}></Route>
+      </Routes>
     </>
   );
 }
