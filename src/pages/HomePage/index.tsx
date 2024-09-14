@@ -9,6 +9,8 @@ import { FaReact } from "react-icons/fa";
 import { SiAxios } from "react-icons/si";
 import { SiReactquery } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
+import { IoIosCall } from "react-icons/io";
 import ProjectCard from "../../component/ProjectCard";
 import useGetProjectDataQuery from "../../hooks/query/useGetProjectDataQuery";
 
@@ -141,7 +143,24 @@ const HomePage = () => {
         </div>
         <div className="flex flex-col items-center lg:items-start gap-5">
           <p className="font-bold text-2xl sm:text-4xl lg:text-5xl">CONTACT</p>
+          <div className="flex flex-col items-center lg:items-start">
+            <a href="mailto:dlxorud1000@naver.com">
+              <div className="flex gap-2 items-center">
+                <MdEmail className="text-[20px] lg:text-[30px]" />
+                <p className="sm:text-xl lg:text-2xl">dlxorud1000@naver.com</p>
+              </div>
+            </a>
+            <a href="tel:01058981338">
+              <div className="flex gap-2 items-center">
+                <IoIosCall className="text-[20px] lg:text-[30px]" />
+                <p className="sm:text-xl lg:text-2xl">010-5898-1338</p>
+              </div>
+            </a>
+          </div>
         </div>
+        <p className="text-center text-xs mb-3">
+          © 2024. 이태경 All rights reserved.
+        </p>
       </div>
     </>
   );
