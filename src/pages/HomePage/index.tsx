@@ -61,7 +61,11 @@ const HomePage = () => {
     <>
       <div className="mt-24 mx-2 flex flex-col gap-20 lg:w-[1000px] lg:m-auto lg:mt-28">
         <div className="flex flex-col items-center gap-5 lg:items-start sm:gap-7">
-          <p className="text-[80px] sm:text-[150px] lg:hidden">👩‍💻</p>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/wwont-portfolio.appspot.com/o/mimoticon_photo.png?alt=media&token=9ac410cd-49d4-480e-ad6b-84bbb8613951"
+            alt="emoticon_photo"
+            className="w-20 sm:w-28 lg:hidden"
+          />
           <div className="lg:w-full lg:flex lg:justify-between lg:items-center">
             <div className="flex flex-col items-center gap-5 lg:items-start">
               <div className="text-center lg:text-left">
@@ -97,7 +101,11 @@ const HomePage = () => {
                 </button>
               </div>
             </div>
-            <p className="hidden lg:block text-[250px]">👩‍💻</p>
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/wwont-portfolio.appspot.com/o/mimoticon_photo.png?alt=media&token=9ac410cd-49d4-480e-ad6b-84bbb8613951"
+              alt="emoticon_photo"
+              className="hidden lg:block w-56"
+            />
           </div>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-5">
