@@ -64,7 +64,7 @@ const HomePage = () => {
           <img
             src="https://firebasestorage.googleapis.com/v0/b/wwont-portfolio.appspot.com/o/mimoticon_photo.png?alt=media&token=9ac410cd-49d4-480e-ad6b-84bbb8613951"
             alt="emoticon_photo"
-            className="w-20 sm:w-28 lg:hidden"
+            className="w-20 sm:w-28 lg:hidden animate-slow-bounce"
           />
           <div className="lg:w-full lg:flex lg:justify-between lg:items-center">
             <div className="flex flex-col items-center gap-5 lg:items-start">
@@ -104,7 +104,7 @@ const HomePage = () => {
             <img
               src="https://firebasestorage.googleapis.com/v0/b/wwont-portfolio.appspot.com/o/mimoticon_photo.png?alt=media&token=9ac410cd-49d4-480e-ad6b-84bbb8613951"
               alt="emoticon_photo"
-              className="hidden lg:block w-56"
+              className="hidden lg:block w-56 animate-slow-bounce"
             />
           </div>
         </div>
