@@ -38,16 +38,12 @@ const No3ProjectPage = () => {
             </div>
           </div>
           <div className="flex flex-col gap-1">
-            <p className="font-semibold text-xl">📌 주요 기능</p>
+            <p className="font-semibold text-xl">📌 프로젝트 소개</p>
             <p className="bg-gray-100 p-2 text-sm">주요기능을 적어요</p>
           </div>
           <div className="flex flex-col gap-1">
             <p className="font-semibold text-xl">📌 기여한 부분</p>
             <p className="bg-gray-100 p-2 text-sm">기여한 부분을 적어요</p>
-          </div>
-          <div className="flex flex-col gap-1">
-            <p className="font-semibold text-xl">📌 작업 화면</p>
-            <p className="bg-gray-100 p-2 text-sm">작업 화면을 넣어요</p>
           </div>
           <div className="flex flex-col gap-1">
             <p className="font-semibold text-xl">📌 트러블 슈팅</p>
